@@ -1,0 +1,30 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "App to display store inventory to customers and to allow manager to manage price and stock of items",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwood75/bamazon.git"
+  },
+  "keywords": [
+    "inquirer",
+    "mysql",
+    "node",
+    "bamazom"
+  ],
+  "author": "Joshua Wood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwood75/bamazon/issues"
+  },
+  "homepage": "https://github.com/jwood75/bamazon#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "inquirer": "^3.0.6",
+    "mysql": "^2.13.0"
+  }
+}
