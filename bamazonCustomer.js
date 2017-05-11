@@ -29,6 +29,17 @@ connection.connect(function(err){
 //writing function that will start the program and display all items available to sell
 var start = function(){
 
+	console.log(`
+	+
+	+    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$            
+	+    $$                                              $$
+	+    $$                WELCOME TO THE                $$
+	+    $$                 CONVINI-MART                 $$
+	+    $$                                              $$
+	+    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$   
+	+
+	`);
+
 	//grabbing all items in database to be displaye
 	connection.query("SELECT * FROM products", function(err, res){
 		if (err) throw err;
