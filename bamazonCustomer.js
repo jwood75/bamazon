@@ -1,7 +1,7 @@
 var mysql = require("mysql");
 var inquirer = require("inquirer");
 
-//calling dotenv to safely store password and user name
+//using dotenv to safely store password and username
 require("dotenv").config();
 var password = process.env.password;
 
@@ -40,7 +40,7 @@ var start = function(){
 	+
 	`);
 
-	//grabbing all items in database to be displaye
+	//grabbing all items in database to be displayed
 	connection.query("SELECT * FROM products", function(err, res){
 		if (err) throw err;
 

@@ -16,8 +16,8 @@ VALUES
 ('Soda', 'Food & Drinks', 1, 10),
 ('Chips', 'Food & Drinks', 2, 20),
 ('FairyTale Zine', 'Magazines & Entertainment', 5, 6),
-('Pop Princess EP', 'Magazines & Entertainment', 3, 10),
-('Cherry Cherry Boom Boom Chapstick', 'Health & Beauty', 40, 1),
-('Rose Glitter Deodorant', 'Health & Beauty', 15, 6);
+('Pop Princess EP', 'Magazines & Entertainment', 3, 3),
+('Cherry Cherry Boom Boom Chapstick', 'Health & Beauty', 1, 5),
+('Rose Glitter Deodorant', 'Health & Beauty', 6, 15);
 
 SELECT * FROM bamazon.products;
